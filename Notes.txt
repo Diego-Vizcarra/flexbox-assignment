@@ -1,0 +1,33 @@
+Working w/ Git
+-Learn how to merge and how to resolve a merge conflict
+-Understand how to use branches
+-How to push local files to a remote server
+-Setup a remote repository
+-A remote repository is a copy of our project stored in the cloud
+-It is where we backup and share our work with others
+-It is accessible anywhere there is an internet connection.
+-Tell git about the remote repository (Once per computer)
+-remote add origin https://<YOUR URL>.git
+-Push changes to the remote server (as needed)
+-git push -u origin master
+-after first push it can simply be
+-git push
+-Git push tells git to upload all changes to server so you don’t need to push after every commit
+-Branches allow us to work on code fixes and features without breaking what we already have (presumably) working
+-Fixes and new features should always start on a branch
+-The master branch is the trunk of your code tree and should only contain clean code ready for deployment.
+-Git branch <name> tells git to maintain a new copy of our code with the given name.
+-Git branch will list the branches available and display an asterisk next to the one  we are currently working on.
+-Git checkout <branch> tells git to switch our working folder to the branch name specified
+-Create mobile branch and switch over to it
+-Git the status of your changes
+-Commit them
+-Go ahead and push them and check github page anything change?
+-Checkout your master branch
+-git checkout master
+-did your css file change? How?
+-What happens when you switch back to the mobile branch?
+-Use git merge to combine branches
+-A merge conflict is when a file has changed in both of the branches you are trying to combine and can’t automagically determine what you want to keep
+-Basically git is asking for help since it is confused
+I believe that the lesson today helped enable people to collaborate on what should be added to code and what not. It will be really helpful especially when more than one person is working on the same file at the same time. I feel like I am a 4 and I got this down with almost no problems. Remote repos, branches, and merging were super easy to understand even if complicated. I didn’t have any questions really but one thing that troubled me was how to delete a local branch after I accidentally created one that I didn’t want. The best part of thanksgiving break was not having to worry about school and that I could just relax and be myself.
